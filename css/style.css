@@ -20,7 +20,7 @@ html, body {
 }
 
 
-/**/
+/*Header*/
 
 section.main {
     background-image: url('../images/bg1.jpg');
@@ -36,6 +36,7 @@ section.main {
     left: 0;
     top: 0;
     height: 100%;
+    min-height: 800px;
     width: 100%;
     background: rgba(0,0,0,0.7);
     z-index: 1;
@@ -83,4 +84,135 @@ header {
 .desktop a {
     color: #fff;
     text-decoration: none;
+}
+
+.header-content {
+    margin: 100px 0;
+    max-width: 700px;
+
+    position: relative;
+    z-index: 2;
+}
+
+.header-content h2 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 44px;
+}
+
+.header-content h2 > span {
+    color: #2992ff;
+}
+
+.header-content p {
+    color: #fff;
+    margin-top: 18px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.header-content a {
+    display: block;
+    width: 177px;
+    height: 44px;
+    background: #2992ff;
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+/*Header*/
+
+/*Plans*/
+.header-plans {
+    width: 100%;
+    text-align: center;
+    padding: 27px 2%;
+    background: #ccc;
+}
+
+.header-plans h2 {
+    display: inline-block;
+    border-top: 2px solid #2992ff;
+    color: #2992ff;
+    font-weight: 300;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.box-plans {
+    padding: 40px 0;
+}
+
+.box-plans > .center {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single-box-plans {
+    width: 33.3%;
+    padding: 0 70px;
+}
+
+.single-box-plans h2 {
+    background: #2992ff;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    font-weight: 300;
+}
+
+.wraper-box-plans {
+    width: 100%;
+    border: 1px solid #ccc;
+    min-height: 300px;
+    -webkit-box-shadow: 10px 9px 5px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 9px 5px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 9px 5px -8px rgba(0,0,0,0.75);
+}
+
+
+.benefit-plan {
+    padding: 8px 0 15px 0;
+}
+
+.benefit-plan p {
+    color: #666;
+    font-size: 14px;
+    margin: 15px 0 0 15px;
+}
+
+.benefit-plan p i {
+    margin-right: 10px;
+}
+
+.price {
+    margin-top: 30px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.price h2 {
+    font-size: 24px;
+    color: #777;
+    background: transparent;
+    display: inline-block;
+    padding: 0 20px;
+    border-top: 1px solid #ccc;
+}
+
+/*Plans*/
+
+
+/*Responsive*/
+
+@media screen and (max-width: 768px){
+    .single-box-plans{
+        width: 100%;
+        margin-top: 15px;
+    }
 }
