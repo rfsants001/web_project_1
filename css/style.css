@@ -15,6 +15,11 @@ html, body {
     padding: 0 2%;
 }
 
+.w50 {
+    float: left;
+    width: 50%;
+}
+
 .clear {
     clear: both;
 }
@@ -207,10 +212,150 @@ header {
 
 /*Plans*/
 
+/*Parallax*/
+.parallax {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    background-image: url('../images/bg_parallax.jpg');
+    background-attachment: fixed;
+    background-size:  cover;
+    background-position: center;
+}
+
+.overlay-parallax {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background: rgb(20 20 20 / 58%);
+}
+
+.parallax > .center {
+    position: relative;
+    z-index: 2;
+    padding: 35px 0;
+    max-width: 960px;
+    color: #fff;
+}
+
+.parallax h2{
+    text-align: center;
+}
+.parallax p {
+    margin-top: 20px;
+}
+
+/*Parallax*/
+
+
+/*Final Section*/
+.final-section {
+    padding: 50px 0;
+}
+
+.final-section h2 {
+    position: relative;
+    font-weight: 300;
+    color: #777;
+    font-size: 24px;
+}
+
+.final-section h2 > .border-effect {
+    width: 10%;
+    height: 2px;
+    background: #777;
+    position: absolute;
+}
+
+.contact {
+    padding: 0 20px;
+}
+
+.contact input:not([type="submit"]){
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+    margin-top: 10px;
+}
+
+.contact textarea {
+    width: 100%;
+    height: 120px;
+    margin-top: 10px;
+    padding-left: 8px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+.contact input[type="submit"]{
+    background: #2992ff;
+    color: #fff;
+    border: 0;
+    width: 100px;
+    height: 33px;
+    border-radius: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.team {
+    padding: 0 20px;
+}
+
+.single-team {
+    border: 1px solid #ccc;
+    min-height: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+    -webkit-box-shadow: 10px 9px 5px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 9px 5px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 9px 5px -8px rgba(0,0,0,0.75);
+}
+
+.single-team .top-team-box{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.single-team .box-avatar {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ccc;
+    vertical-align: middle;
+}
+
+.single-team-info {
+    display: inline-block;
+    color: #777;
+    padding-left: 8px;
+    vertical-align: middle;
+}
+
+.description {
+    color: #999;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 10px 0 0 10px;
+}
+
+
+
+/*Final Section*/
+
 
 /*Responsive*/
 
 @media screen and (max-width: 768px){
+    .w50{
+        width: 100%;
+        margin: 20px 0;
+    }
     .single-box-plans{
         width: 100%;
         margin-top: 15px;

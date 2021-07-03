@@ -98,6 +98,68 @@
             </div>
         </section>
     </section>
+
+    <section class="parallax">
+        <div class="overlay-parallax"></div>
+        <div class="center">
+            <h2>About <span style="color: #2692ff">us</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ullamcorper ultrices justo, in volutpat arcu tristique eu. Nulla tincidunt placerat erat ac ullamcorper. Etiam maximus varius sagittis. Suspendisse sed viverra sem, in lacinia est. Fusce auctor lectus quis condimentum ultricies. Mauris porta euismod dolor, non vulputate lacus posuere semper. Nullam lacinia mauris auctor dignissim condimentum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ullamcorper ultrices justo, in volutpat arcu tristique eu. Nulla tincidunt placerat erat ac ullamcorper. Etiam maximus varius sagittis. Suspendisse sed viverra sem, in lacinia est. Fusce auctor lectus quis condimentum ultricies. Mauris porta euismod dolor, non vulputate lacus posuere semper. Nullam lacinia mauris auctor dignissim condimentum.</p>
+        </div>
+    </section>
+
+    <section class="final-section">
+        <div class="center">
+            <div class="w50 contact">
+                <h2>
+                    <div class="border-effect"></div>Contact us!
+                </h2>
+                <form>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <textarea cols="30" rows="10" placeholder="Your message"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="w50 team">
+                <h2>
+                    <div class="border-effect"></div>Meet our team
+                </h2>
+                <div class="w50">
+                    <div class="single-team">
+                        <div class="top-team-box">
+                            <div class="box-avatar"></div>
+                            <div class="single-team-info">
+                                <p style="font-weight: bold;">John Doe</p>
+                                <p style="font-weight: italic;">CEO</p>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ullamcorper ultrices justo, in volutpat arcu tristique eu. Nulla tincidunt placerat erat ac ullamcorper. Etiam maximus varius sagittis. Suspendisse sed viverra sem, in lacinia est. Fusce auctor lectus quis condimentum ultricies. Mauris porta euismod dolor, non vulputate lacus posuere semper. Nullam lacinia mauris auctor dignissim condimentum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w50">
+                    <div class="single-team">
+                        <div class="top-team-box">
+                            <div class="box-avatar"></div>
+                            <div class="single-team-info">
+                                <p style="font-weight: bold;">John Doe</p>
+                                <p style="font-weight: italic;">CEO</p>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ullamcorper ultrices justo, in volutpat arcu tristique eu. Nulla tincidunt placerat erat ac ullamcorper. Etiam maximus varius sagittis. Suspendisse sed viverra sem, in lacinia est. Fusce auctor lectus quis condimentum ultricies. Mauris porta euismod dolor, non vulputate lacus posuere semper. Nullam lacinia mauris auctor dignissim condimentum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section>
+
+
 </body>
 
 </html>
