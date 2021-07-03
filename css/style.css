@@ -91,6 +91,42 @@ header {
     text-decoration: none;
 }
 
+.mobile {
+    display: none;
+    float: right;
+}
+
+
+.mobile > i {
+    cursor: pointer;
+    font-size: 25px;
+    color: #fff;
+    
+    position: relative;
+    top: 23px;
+}
+
+.mobile ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 90px;
+    list-style-type: none;
+    background: #fff;
+    width: 100%;
+}
+
+.mobile li {
+    text-align: center;
+    padding: 8px 0;
+}
+
+.mobile a {
+    display: block;
+    text-decoration: none;
+    color: #444;
+}
+
 .header-content {
     margin: 100px 0;
     max-width: 700px;
@@ -344,6 +380,13 @@ header {
     padding: 10px 0 0 10px;
 }
 
+footer {
+    width: 100%;
+    padding: 10px 2%;
+    text-align: center;
+    color: #fff;
+    background: #444;
+}
 
 
 /*Final Section*/
@@ -355,6 +398,12 @@ header {
     .w50{
         width: 100%;
         margin: 20px 0;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
     }
     .single-box-plans{
         width: 100%;

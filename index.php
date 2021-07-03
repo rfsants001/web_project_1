@@ -26,9 +26,17 @@
                 <div class="logo">Project 1</div>
                 <nav class="desktop">
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contactus">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="mobile" onclick="handleShow()">
+                    <i class="fa fa-bars"></i>
+                    <ul id="mobile-list">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contactus">Contact</a></li>
                     </ul>
                 </nav>
                 <div class="clear"></div>
@@ -99,7 +107,7 @@
         </section>
     </section>
 
-    <section class="parallax">
+    <section class="parallax" id="about">
         <div class="overlay-parallax"></div>
         <div class="center">
             <h2>About <span style="color: #2692ff">us</span></h2>
@@ -108,8 +116,8 @@
         </div>
     </section>
 
-    <section class="final-section">
-        <div class="center">
+    <section class="final-section" id="contactus">
+        <div class="center" >
             <div class="w50 contact">
                 <h2>
                     <div class="border-effect"></div>Contact us!
@@ -159,6 +167,20 @@
         </div>
     </section>
 
+    <footer>
+        <p>All rights reserved Project 1</p>
+    </footer>
+
+    <script>
+        function handleShow() {
+            let mobile = document.getElementById('mobile-list');
+            if(mobile.style.visibility == ""){
+                mobile.style.display = "block";
+            }else {
+                mobile.style.display = "none";
+            }
+        }
+    </script>
 
 </body>
 
